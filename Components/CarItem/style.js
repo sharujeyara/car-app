@@ -1,0 +1,70 @@
+import { StyleSheet } from "react-native";
+
+const CarStyles = StyleSheet.create({
+    carContainer:{
+        width:"100%",
+        height:"100%"
+    },
+    header:{
+        marginTop:50,
+        marginLeft:20,
+        marginRight:20,
+        flexDirection:"row",
+        justifyContent:"space-between",
+        alignItems:"center"
+    },
+    icon:{
+        color:"#fff"
+    },
+    headertitle:{
+        color:"#fff",
+        fontSize:20,
+        fontWeight:"100",
+        alignItems:"center",
+        justifyContent:"center"
+    },
+    imageBackground:{
+        width:"100%",
+        height:"100%",
+        resizeMode:"cover",
+        position:"absolute"
+    },
+    batterysection:{
+        marginTop:10,
+        flexDirection:"row",
+        justifyContent:"center",
+        alignItems:"center"
+    },
+    batteryimage:{
+        width:70,
+        height:26,
+        marginRight:12
+    },
+    batterytext:{
+        color:"#fff",
+        fontWeight:"bold",
+        fontSize:35
+    }, 
+    status:{
+        alignItems:"center"
+    },
+    statusText:{
+        color:"#fff",
+        fontWeight:"bold",
+        fontSize:20
+    },
+    control:{
+        flexDirection:"row",
+        justifyContent:"center",
+        marginTop:175
+    },
+    controlButton:{
+        borderWidth:1,
+        borderRadius:50,
+        marginLeft:18,
+        padding:18,
+        borderColor:"#fff"
+    }
+})
+
+export default CarStyles;
